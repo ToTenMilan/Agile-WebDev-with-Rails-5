@@ -22,7 +22,6 @@
       </ul>
     </div>
     <div class='<%= controller.controller_name %>' id="main">
-      <%= pluralize(session[:counter], 'visit') if session[:counter] > 5 %> <!-- # ex. D3 -->
       <%= yield %>
     </div>
   </div>
