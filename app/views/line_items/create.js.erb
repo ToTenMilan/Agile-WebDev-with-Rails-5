@@ -1,3 +1,6 @@
+// AJAX File. line_items controller, create action, format.js leads here like usual with html.erb files. is rendered by carts/_cart.html.erb
+$('#notice').hide();
+
 if ($('#cart tr').length == 1) { $('#cart').show('blind', 1000); }
 
 $('#cart').html("<%=j render(@cart) %>");
